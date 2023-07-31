@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+    <link rel="stylesheet" href="oop.css">
+<head>
+  <title>Bank Account Form</title>
+</head>
+<body>
+    
+
+
+
+  <h1>Bank Al-Habib Account Form</h1>
+  <form onsubmit="handleSubmit(event)">
+    <label for="username">Username:</label>
+    <input type="text" name="username" id="username" required><br>
+    <br>
+
+    <label for="accountNumber">Account Number:</label>
+    <input type="text" name="accountNumber" id="accountNumber" required><br>
+
+    <label for="pincode">Pincode:</label>
+    <input type="password" name="pincode" id="pincode" required><br>
+
+    <label for="bankName">Bank Name:</label>
+    <input type="text" name="bankName" id="bankName" required><br>
+
+    <label for="currentAmount">Current Amount:</label>
+    <input type="number" name="currentAmount" id="currentAmount" step="0.01" required><br>
+
+    <button type="submit">Submit</button>
+  </form>
+
+  <script src="oop.js"></script>
+
+</body>
+</html>
